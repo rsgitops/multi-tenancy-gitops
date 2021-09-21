@@ -74,6 +74,7 @@ spec:
     description: Read-only privileges to my-project
     policies:
     - p, proj:my-project:read-only, applications, get, my-project/*, allow
+    - p, proj:services:read-only, applications, get, services/*, allow
     groups:
     - argocd-admins
 ---
